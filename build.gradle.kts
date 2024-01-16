@@ -20,6 +20,7 @@ dependencies {
     //web开发
     implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
     implementation("io.vertx:vertx-web")
+    implementation("io.vertx:vertx-web-client")
     testImplementation("io.vertx:vertx-junit5")
 
 }
